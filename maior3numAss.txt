@@ -1,0 +1,28 @@
+start RW a
+      RW b
+      RW c
+      LA a
+      SUB b
+      JLT pulo1
+      LA a
+      SUB c
+      JLT pulo2
+      JEQ pulo3
+      PW a
+      STOP
+pulo1 LA b
+      SUB c
+      JLT pulo2
+      JEQ pulo3
+      PW  b
+      STOP
+pulo2 PW c
+      STOP
+pulo3 PW d
+      STOP
+
+a SPACE 1
+b SPACE 1
+c SPACE 1
+d SPACE 1
+END

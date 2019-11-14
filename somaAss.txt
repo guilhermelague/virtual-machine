@@ -1,0 +1,12 @@
+start RW num1
+      RW num2
+      LA num1
+      AA num2
+      SA num1
+      PW num1
+      STOP 
+num1 SPACE 1
+num2 SPACE 1
+num3 SPACE 1
+
+END

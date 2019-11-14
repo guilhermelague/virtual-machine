@@ -1,0 +1,19 @@
+start RW n1
+      RW n2
+      RW n3
+      RW qtdnotas
+      LA n1
+      AA n2
+      SA total
+      LA n3
+      AA total
+      SA total
+
+n1 SPACE 1
+n2 SPACE 1
+n3 SPACE 1
+qtdnotas GLOBAL 1
+total GLOBAL 1
+media EXTERN 1
+
+END

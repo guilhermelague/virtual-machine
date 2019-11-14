@@ -1,0 +1,11 @@
+   LA total
+   DIV  qtdnotas
+   SA media
+   PW media
+   STOP
+
+qtdnotas EXTERN 1
+total EXTERN 1
+media GLOBAL 1
+
+END
